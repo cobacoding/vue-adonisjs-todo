@@ -1,5 +1,6 @@
 CATATAN ADONISJS
 https://legacy.adonisjs.com/
+adonis serve --dev
 
 install adonis secara global
 npm i -g @adonisjs/cli
