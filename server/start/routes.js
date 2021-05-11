@@ -20,8 +20,12 @@ Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
 
-Route.post('auth/register', () => {
-  return {
-    message: 'hello post',
-  }
-})
+// Route.post('auth/register', () => {
+//   return {
+//     message: 'hello post',
+//   }
+// })
+
+Route.group(() => {
+  Route.post('auth/register', 'UserController.register')
+}).prefix('api');

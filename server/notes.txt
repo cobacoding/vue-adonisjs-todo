@@ -1,0 +1,11 @@
+CATATAN ADONISJS
+https://legacy.adonisjs.com/
+
+install adonis secara global
+npm i -g @adonisjs/cli
+adonis --help
+install project
+adonis new server --api-only
+
+// create controller user
+adonis make:controller User
