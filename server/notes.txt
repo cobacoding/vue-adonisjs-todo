@@ -10,3 +10,7 @@ adonis new server --api-only
 
 // create controller user
 adonis make:controller User
+
+// create model & migration
+adonis make:model Project -m
+jangan lupa setelah dibuat model dan migrationnya jalankan adonis migration:run
